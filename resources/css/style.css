@@ -306,7 +306,7 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   #features-section .first {
     background-color: #808080;
   }
