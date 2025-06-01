@@ -294,9 +294,9 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 790px) {
   #features-section {
-    flex-flow: column;
+    flex-direction: row;
     padding: 0;
   }
 
@@ -310,9 +310,12 @@ header .mobile {
   #features-section .first {
     background-color: #808080;
   }
- 
-  
-}
+
+  #features-section{
+    flex-direction: column;
+  }
+    background-color: #9b9b9b;
+  }
 
 /* Filters Section */
 
